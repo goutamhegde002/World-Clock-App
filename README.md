@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# World Clock App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The World Clock App is a web application that displays a 4x4 grid of flags and country names. Each country button updates the clock time to match the corresponding timezone. The application features a responsive design with an interactive world map that highlights the timezone of the selected country. This project is built using React.js, Tailwind CSS, and deployed on GitHub Pages.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Responsive Design:** Displays a 4x4 grid of flags and country names with an interactive world map.
+- **Timezone Highlighting:** Hover over flags to highlight the corresponding timezone on the map.
+- **Clock Display:** Shows the current time for the selected timezone.
+- **Deployment:** Hosted on GitHub Pages.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React.js:** Frontend library for building user interfaces.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **Leaflet and Mapbox GL:** Libraries for interactive maps.
+- **GitHub Pages:** Hosting platform for deploying static sites.
 
-### `npm test`
+## Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `src/` - Contains all the source code for the application.
+  - `components/` - React components for various parts of the app.
+  - `App.js` - Main application component.
+  - `index.js` - Entry point for React.
+  - `App.css` - Styles for the application.
+- `public/` - Public assets such as the HTML file and static assets.
+- `package.json` - Project metadata and dependencies.
+- `.github/` - GitHub workflows and configurations.
+  - `workflows/` - Contains GitHub Actions workflows for CI/CD.
 
-### `npm run build`
+## Setup Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ensure you have the following installed on your local machine:
+- [Node.js](https://nodejs.org/) (v16 or later)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. **Clone the Repository:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/goutamhegde002/World-Clock-App.git
+   cd World-Clock-App
+  `
+2. **Install Dependencies:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  ```bash
+    npm install
+  ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start the Development Server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  ```bash
+  npm start
+  ```
 
-## Learn More
+Open http://localhost:3000 in your browser to view the application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Usage**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  Interact with the Grid: Click on any flag in the 4x4 grid to update the clock with the corresponding timezone.
+  
+  Hover Over Flags: Hovering over a flag highlights the timezone on the world map and updates the clock to display the current time for that timezone.
+  
+**Deployment**
 
-### Code Splitting
+  The project is deployed using GitHub Pages. To deploy your changes:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   Build the Project:
+   ```
+      npm run build
+```
+  Deploy to GitHub Pages:
+  
+  ```
+      npm run deploy
+  ```
 
-### Analyzing the Bundle Size
+Ensure that you have set up the gh-pages branch and configured your GitHub Actions workflow correctly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**License**
 
-### Making a Progressive Web App
+This project is licensed under the GNU License - see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Acknowledgments**
 
-### Advanced Configuration
+React.js - Library for building the user interface.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Tailwind CSS - Utility-first CSS framework.
 
-### Deployment
+Leaflet and Mapbox GL - Libraries for interactive maps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
