@@ -28,6 +28,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ git@github.com:goutamhegde002/World-Clock-App.git}}
+          deploy_key: ${{ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDtm02WlwjGPv/kfcdmDqWSXIfv4AopCxCJ0CDOwo3kIjVeo3xy+I+EvZovLtisCypQaE83iFMeF4Ma0C/OZT/ng17wzdZFWa0nvZGcAprz7OlLTMfu4f14egqzr+UuXW9rWnDiYuQ0K/t8mTP1QayPVRkXSSfG9TnmpRO6n8TW3fXC3y42Xm9En2Pa0qyRU+eZ5mM6ra3izw2v8G2/zUypbG1aGfhiYgrgwCD0Q71g0HDe4rHrQw0BXq9n88CxcD/oBiJYW3YlAw2Zr9lYoS8DhM5Prh7rPSXpLe1DQqZDR/KxyIU5WgFgOdYcHjZswj64F0zyAWCNUJJXK2EJjBJCXqwqPWKDHFop7IDajZ2pb+vv4g1nH69csI05QWnwdQUZ92r8WK6MnbYYb7WEmbQffXMMdjSNvRefJ4VrzVuZ++/7rjl/k+71ZpKHXQwM64ZLvc2U2CdnCDvzzjlV8xWcIqLgEFb3iFU31IWqxAuVXJjqBG/Dxndm+iM7kQBQQR+tmQZOyFXtoEvmAl6qCRWoep/lT0Lb1tH3YJ6jv4BD2ldCmGSJCW7nN1jxrrnQ9ZDA8H/WijfTdE2IcibG+HDujzHLrAfRjAfAdBXcYoavZWi8Y48Y6XvGJr/kM7VAfV1gGhcS4rjwQ7kZsQzNVqW3i/GlmtHlqOvlcYx1SyAubQ== goutamhegde2000g@gmail.com}}
           publish_dir: ./build
           publish_branch: gh-pages
