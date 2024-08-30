@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main # Adjust this to your default branch if it's not 'main'
+      - main # Adjust this if your default branch is not 'main'
 
 jobs:
   deploy:
@@ -12,12 +12,12 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: "16" # Adjust the Node.js version as needed
+          node-version: "20"
 
       - name: Install dependencies
         run: npm install
@@ -26,8 +26,8 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          deploy_key: ${{ secrets.DEPLOY_KEY }}  # Reference the secret here
+          deploy_key: ${{ secrets.DEPLOY_KEY }}  # Ensure this secret is correctly added
           publish_dir: ./build
           publish_branch: gh-pages
