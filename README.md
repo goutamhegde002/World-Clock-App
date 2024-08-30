@@ -1,5 +1,7 @@
 # World Clock App
 
+![Images](Images/Img.png)
+
 ## Overview
 
 The World Clock App is a web application that displays a 4x4 grid of flags and country names. Each country button updates the clock time to match the corresponding timezone. The application features a responsive design with an interactive world map that highlights the timezone of the selected country. This project is built using React.js, Tailwind CSS, and deployed on GitHub Pages.
