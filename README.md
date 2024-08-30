@@ -43,54 +43,55 @@ Ensure you have the following installed on your local machine:
 1. **Clone the Repository:**
 
    ```bash
+   
    git clone https://github.com/goutamhegde002/World-Clock-App.git
    cd World-Clock-App
-  `
+   
 2. **Install Dependencies:**
 
-  ```bash
-    npm install
-  ```
+      ```bash
+        npm install
+      ```
 
-Start the Development Server:
+ 3. **Start the Development Server:**
 
-  ```bash
-  npm start
-  ```
+      ```bash
+      npm start
+      ```
 
-Open http://localhost:3000 in your browser to view the application.
+    Open http://localhost:3000 in your browser to view the application.
 
-**Usage**
+## **Usage**
 
   Interact with the Grid: Click on any flag in the 4x4 grid to update the clock with the corresponding timezone.
   
   Hover Over Flags: Hovering over a flag highlights the timezone on the world map and updates the clock to display the current time for that timezone.
   
-**Deployment**
+## **Deployment**
 
   The project is deployed using GitHub Pages. To deploy your changes:
 
-   Build the Project:
-   ```
-      npm run build
-```
-  Deploy to GitHub Pages:
+   1. Build the Project:
+       ```
+          npm run build
+       ```
+   2. Deploy to GitHub Pages:
   
-  ```
-      npm run deploy
-  ```
+      ```
+          npm run deploy
+      ```
 
-Ensure that you have set up the gh-pages branch and configured your GitHub Actions workflow correctly.
+  Ensure that you have set up the gh-pages branch and configured your GitHub Actions workflow correctly.
 
-**License**
+## **License**
 
-This project is licensed under the GNU License - see the LICENSE file for details.
+  This project is licensed under the GNU License - see the LICENSE file for details.
 
-**Acknowledgments**
+## **Acknowledgments**
 
-React.js - Library for building the user interface.
-
-Tailwind CSS - Utility-first CSS framework.
-
-Leaflet and Mapbox GL - Libraries for interactive maps.
+  React.js - Library for building the user interface.
+  
+  Tailwind CSS - Utility-first CSS framework.
+  
+  Leaflet and Mapbox GL - Libraries for interactive maps.
 
