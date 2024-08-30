@@ -87,7 +87,7 @@ Ensure you have the following installed on your local machine:
 
 ## **License**
 
-  This project is licensed under the GNU License - see the LICENSE file for details.
+  This project is licensed under the Apache License - see the LICENSE file for details.
 
 ## **Acknowledgments**
 
